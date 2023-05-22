@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hello Master Chef - Coding challenge - Implementation using HTML & CSS">
+    <title>Cafe House</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        :root {
+            --border-color: darkslateblue;
+            --commonFont: 'Century Gothic';
+            --sub-font-color: rgb(62, 0, 128);
+        }
+        * {
+            box-sizing: border-box;
+            font-family: var(--commonFont);
+        }
+        body {
+            padding: 1rem 0.5rem;
+            line-height: 1.5;
+            text-align: center;
+            border: 8px solid var(--border-color);
+        }
+        h3 {
+            text-align: justify;
+        }
+        header {
+            border-bottom: 8px double var(--border-color);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        footer{
+            border-top: 8px double var(--border-color);
+        }
+        .intro {
+            font-style: italic;
+            font-size: 1.3rem;
+        }
+        .subheader {
+            text-transform: uppercase;
+            color: var(--sub-font-color);
+            letter-spacing: 1px;
+        }
+        .recipe-look img {
+            border: 6px solid var(--border-color);
+            border-radius: 4px;
+        }
+        .ingredients,
+        .method,
+        .facts {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo-wrapper">
+            <img src="/ASSIGNMENT 1,2,3 -20.03.2023 - SINDHU/Masterchef logo.jpg" alt="Cafe-House" width="200px" height="200px">
+        </a>
+    </header>
+    <section class="intro-wrapper">
+        <p class="intro">
+            Biryani: A Flavorful South Asian Delight with Rich Aromas and Spices.
+        </p>
+        <figure class="recipe-look">
+            <img src="/ASSIGNMENT 1,2,3 -20.03.2023 - SINDHU/briyani.png" alt="Traditional Kadalai Muttai" class="recipe-look-img">
+            <figcaption>Biryani</figcaption>
+        </figure>
+    </section>
+    <p>Recipe and Serving suggestions follow</p>
+    <section class="ingredients">
+        <h3 class="subheader">Ingredients</h3>
+        <ul>
+            <li>Basmati rice</li>
+            <li>Chicken or meat</li>
+            <li>Onions, Tomatoes</li>
+            <li>Yogurt</li>
+            <li>Ginger-garlic paste</li>
+            <li>Biryani masala or spices, Saffron strands</li>
+            <li>Ghee or cooking oil</li>
+            <li>Fresh mint and coriander leaves</li>
+            <li>Fried onions (for garnish)</li>
+            <li>Lemon wedges (for serving)</li>
+            <li>Salt to Taste</li>
+        </ul>
+    </section>
+    <section class="method">
+        <h3 class="subheader">Method</h3>
+        <ol>
+            <li>Rinse the rice thoroughly and soak it in water for 30 minutes. Drain the water and set aside.</li>
+            <li>Heat ghee or oil in a large pan and fry the sliced onions until golden brown. Remove half of the fried onions and set them aside for garnish.</li>
+            <li>In the same pan, add ginger-garlic paste and sauté until fragrant. Add chopped tomatoes and cook until they turn soft.</li>
+            <li>Add the chicken or meat pieces to the pan and cook until they are partially cooked.</li>
+            <li>Mix in yogurt and biryani masala/spices. Add salt to taste. Cook the mixture for a few minutes.</li>
+            <li>In a separate pot, bring water to a boil and add the soaked rice. Cook the rice until it is 70-80% done. Drain the rice and set aside.</li>
+            <li>Layer the partially cooked meat mixture and the parboiled rice in a large pot, starting with a layer of rice at the bottom and alternating between the meat and rice layers. Add saffron strands soaked in milk between the layers for the saffron rice layer.</li>
+            <li>Cover the pot with a tight-fitting lid and cook on low heat for about 20-25 minutes, allowing the flavors to blend and the rice to cook completely.</li>
+            <li>Once cooked, remove the lid and garnish the biryani with fried onions, mint leaves, and coriander leaves.</li>
+            <li>Serve the delicious biryani hot with raita (yogurt sauce) and lemon wedges.</li>
+        </ol>
+    </section>
+    <section class="facts">
+        <h3 class="subheader">Interesting Facts</h3>
+        <ul>
+            <li>Biryani is a popular and diverse dish in India, with different regions having their own unique variations.</li>
+            <li>The origin of biryani can be traced back to the Mughal era in India, where it was introduced by the Mughal emperors.</li>
+            <li>Hyderabadi Biryani and Lucknowi Biryani are among the most famous types of biryani in India.</li>
+            <li>Biryani is enjoyed by people of all ages and is known for its rich and indulgent taste.</li>
+            <li>Biryani has gained popularity worldwide and is often considered a symbol of Indian cuisine.</li>
+        </ul>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Cafe House. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
